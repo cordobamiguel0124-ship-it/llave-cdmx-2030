@@ -4,113 +4,282 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Llave CDMX 2030 - Solicitud Simulada de Actas</title>
+<title>Llave CDMX 2030</title>
 
 <style>
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
 
 body{
-    font-family: Arial, sans-serif;
-    background:#f4f6f9;
-    color:#333;
-    line-height:1.6;
+background:#f4f6f9;
+color:#333;
 }
 
 header{
-    background:#003366;
-    color:white;
-    text-align:center;
-    padding:25px;
+background:#003366;
+color:white;
+text-align:center;
+padding:25px;
 }
 
 header h1{
-    font-size:2.2rem;
+font-size:2.2rem;
+}
+
+header p{
+margin-top:10px;
 }
 
 nav{
-    background:#00509e;
-    text-align:center;
-    padding:15px;
+background:#00509e;
+text-align:center;
+padding:15px;
 }
 
 nav a{
-    color:white;
-    text-decoration:none;
-    margin:0 15px;
-    font-weight:bold;
+color:white;
+text-decoration:none;
+margin:0 15px;
+font-weight:bold;
 }
 
 nav a:hover{
-    text-decoration:underline;
+text-decoration:underline;
 }
 
 .container{
-    width:90%;
-    max-width:1200px;
-    margin:auto;
-    padding:20px;
+width:90%;
+max-width:1200px;
+margin:auto;
+padding:20px;
 }
 
 .card{
-    background:white;
-    padding:20px;
-    margin-bottom:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+background:white;
+padding:20px;
+margin-bottom:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
 
 .card h2{
-    color:#003366;
-    margin-bottom:10px;
+color:#003366;
+margin-bottom:10px;
 }
 
 .aviso{
-    background:#fff3cd;
-    border-left:5px solid #ffc107;
-    padding:15px;
-    margin-bottom:20px;
-    font-weight:bold;
+background:#fff3cd;
+border-left:5px solid #ffc107;
+padding:15px;
+margin-bottom:20px;
+font-weight:bold;
 }
 
 form{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 2px 8px rgba(0,0,0,0.1);
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 2px 8px rgba(0,0,0,.1);
 }
 
 label{
-    display:block;
-    margin-top:12px;
-    font-weight:bold;
+display:block;
+margin-top:10px;
+font-weight:bold;
 }
 
 input,
 select,
 textarea{
-    width:100%;
-    padding:10px;
-    margin-top:5px;
-    border:1px solid #ccc;
-    border-radius:5px;
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:5px;
 }
 
 button{
-    background:#00509e;
-    color:white;
-    border:none;
-    padding:12px;
-    width:100%;
-    margin-top:20px;
-    border-radius:5px;
-    font-size:16px;
-    cursor:pointer;
+background:#00509e;
+color:white;
+border:none;
+padding:12px;
+width:100%;
+margin-top:20px;
+font-size:16px;
+cursor:pointer;
+border-radius:5px;
 }
 
 button:hover{
-    background:#
+background:#003366;
+}
+
+#resultado{
+margin-top:15px;
+font-weight:bold;
+}
+
+footer{
+background:#003366;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:30px;
+}
+
+@media(max-width:768px){
+
+nav a{
+display:block;
+margin:10px 0;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Llave CDMX 2030</h1>
+<p>Consulta y Solicitud Simulada de Actas</p>
+</header>
+
+<nav>
+#nacimientoNacimiento</a>
+#matrimonioMatrimonio</a>
+#defuncionDefunción</a>
+#solicitudSolicitud</a>
+</nav>
+
+<div class="container">
+
+<div class="aviso">
+Este sitio es un prototipo académico universitario. No es un portal gubernamental oficial.
+</div>
+
+<section id="nacimiento" class="card">
+<h2>Acta de Nacimiento</h2>
+<p>Documento oficial que acredita la identidad de una persona y es utilizado en trámites diversos.</p>
+</section>
+
+<section id="matrimonio" class="card">
+<h2>Acta de Matrimonio</h2>
+<p>Documento que acredita legalmente una unión matrimonial.</p>
+</section>
+
+<section id="defuncion" class="card">
+<h2>Acta de Defunción</h2>
+<p>Documento que certifica oficialmente el fallecimiento de una persona.</p>
+</section>
+
+<section class="card">
+<h2>Consejos de Seguridad Digital</h2>
+<ul>
+<li>No compartas contraseñas.</li>
+<li>Verifica sitios oficiales.</li>
+<li>No compartas datos innecesarios.</li>
+<li>Utiliza conexiones seguras.</li>
+<li>Mantén actualizado tu navegador.</li>
+</ul>
+</section>
+
+<section id="solicitud">
+
+<form id="formulario">
+
+<h2>Solicitud Simulada de Acta</h2>
+
+<label>Nombre completo</label>
+<input type="text" id="nombre">
+
+<label>Correo electrónico</label>
+<input type="email" id="correo">
+
+<label>Teléfono</label>
+<input type="text" id="telefono">
+
+<label>Tipo de acta</label>
+<select id="tipo">
+<option value="">Seleccione</option>
+<option>Acta de Nacimiento</option>
+<option>Acta de Matrimonio</option>
+<option>Acta de Defunción</option>
+</select>
+
+<label>Comentarios</label>
+<textarea id="comentarios" rows="4"></textarea>
+
+<button type="submit">
+Enviar solicitud
+</button>
+
+<div id="resultado"></div>
+
+</form>
+
+</section>
+
+</div>
+
+<footer>
+Llave CDMX 2030 | Aplicaciones Web
+</footer>
+
+<script>
+
+document.getElementById("formulario").addEventListener("submit",function(e){
+
+e.preventDefault();
+
+let nombre=document.getElementById("nombre").value.trim();
+let correo=document.getElementById("correo").value.trim();
+let telefono=document.getElementById("telefono").value.trim();
+let tipo=document.getElementById("tipo").value;
+
+let errores=[];
+
+if(nombre.length<5){
+errores.push("Escribe un nombre válido.");
+}
+
+if(!correo.includes("@")){
+errores.push("Correo inválido.");
+}
+
+if(telefono.length!==10){
+errores.push("El teléfono debe tener 10 dígitos.");
+}
+
+if(tipo===""){
+errores.push("Selecciona un tipo de acta.");
+}
+
+let resultado=document.getElementById("resultado");
+
+if(errores.length>0){
+
+resultado.style.color="red";
+resultado.innerHTML=errores.join("<br>");
+
+}else{
+
+resultado.style.color="green";
+resultado.innerHTML="✅ Solicitud enviada correctamente.";
+
+document.getElementById("formulario").reset();
+
+}
+
+});
+
+</script>
+
+</body>
+</html>
