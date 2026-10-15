@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tramites>
+
+<tramite id="T001">
+    <nombre>Acta de Nacimiento Digital</nombre>
+    <descripcion>
+        Permite obtener una copia certificada del acta de nacimiento.
+    </descripcion>
+    <modalidad>En línea</modalidad>
+</tramite>
+
+<tramite id="T002">
+    <nombre>Corrección de Datos en Acta de Nacimiento</nombre>
+    <descripcion>
+        Permite corregir información contenida en el acta.
+    </descripcion>
+    <modalidad>Presencial</modalidad>
+</tramite>
+
+<tramite id="T003">
+    <nombre>Registro y Uso de Llave MX</nombre>
+    <descripcion>
+        Permite crear una identidad digital para acceder a servicios gubernamentales.
+    </descripcion>
+    <modalidad>Mixta</modalidad>
+</tramite>
+
+</tramites>
